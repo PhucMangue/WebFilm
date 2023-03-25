@@ -1,0 +1,112 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#header{
+  height: 142px;
+  background-color: #333;
+}
+#header .container-item{
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+}
+.motchill{
+  margin-top: 20px;
+  width: 230px;
+  height: 60px;
+}
+.right-header{
+  width: 780px;
+  height: 100px;
+  position: relative;
+}
+.right-header .key-word{
+  width: 50%;
+  padding: 10px 0;
+  border: 1px solid white;
+  margin-top: 40px;
+  margin-left: 20px;
+
+}
+.right-header .ti-search{
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 47px;
+  cursor: pointer;
+  font-size: 25px;
+}
+.right-header .sign{
+  position: absolute;
+  margin-left: 511px;
+  top: 10px;
+}
+.white{
+  color: white;
+}
+.right-header .sign a{
+  text-decoration: none;
+}
+#header .menu{
+  text-align: center;
+}
+#header .menu ul{
+  background-color: #2d2d2d;
+}
+#header>.menu>ul>li{
+  display: inline-block;
+  padding: 15px;
+  font-size: 20px;
+  position: relative;
+}
+#header .menu ul li a{
+  color: white;
+  text-decoration: none;
+}
+#header>.menu>ul>li:hover>a{
+  color: rgb(196, 111, 43);
+}
+#header .menu .sub-menu{
+  display: none;
+  width: 710px;
+  position: absolute;
+  text-align: left;
+  z-index: 100;
+}
+#header .menu .sub-menu li{
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  position: relative;
+}
+#header .menu li:hover .sub-menu{
+ display: block;
+ z-index: 100;
+}
+#header .menu li .sub-menu li:hover a{
+ color: orangered;
+ text-decoration: none;
+}
+#content{
+  height: 1000px;
+  background-color: black;
+}
+/* Thanh Cuon */
+.swiper {
+  top: 50px;
+  width: 1100px;
+  height: 550px;
+  z-index: 1;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+/* End Thanh Cuon */
