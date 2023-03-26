@@ -110,3 +110,21 @@
   width: 100%;
 }
 /* End Thanh Cuon */
+.view p{
+ color: white;
+ font-weight: 300;
+ font-size: 30px;
+ position: absolute;
+ margin-top: 450px;
+ margin-left: 20px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name-film{
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
