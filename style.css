@@ -8,9 +8,10 @@
   background-color: #333;
 }
 #header .container-item{
-  width: 1100px;
-  margin: 0 auto;
   display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
 }
 .motchill{
   margin-top: 20px;
@@ -20,7 +21,6 @@
 .right-header{
   width: 780px;
   height: 100px;
-  position: relative;
 }
 .right-header .key-word{
   width: 50%;
@@ -50,6 +50,7 @@
 }
 #header .menu{
   text-align: center;
+  padding-top: 90px;
 }
 #header .menu ul{
   background-color: #2d2d2d;
@@ -98,6 +99,7 @@
   width: 1100px;
   height: 550px;
   z-index: 1;
+  position: relative;
 }
 
 .swiper-slide {
@@ -124,7 +126,7 @@
   font-weight: 300;
   font-size: 30px;
   position: absolute;
-  margin-top: 500px;
-  margin-left: 20px;
+  padding-top: 500px;
+  padding-left: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
