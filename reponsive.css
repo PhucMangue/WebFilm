@@ -10,6 +10,7 @@
     }
     .container-item .menu-btn{
         display: block;
+        margin-right: 90%;
     }
     #header .menu ul{
         display: none;
@@ -17,6 +18,27 @@
     .title p{
         display: block;
     }
+    .right-header .key-word {
+        display: none;
+    }
+    .right-header .ti-search {
+        margin-left: 90%;
+        font-weight: 900;
+        color: rgb(159, 180, 199);
+        font-size: 30px;
+    }
+    .motchill{
+        position: absolute;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction,
+    .swiper-button-prev, .swiper-rtl .swiper-button-next,
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+        display: none;
+    }
+    .view p{
+        margin-top: 40% !important;
+    }
+
 }
 @media(max-width:740px){
     .right-header .sign{
@@ -27,6 +49,7 @@
     }
     .container-item .menu-btn{
         display: block;
+        margin-right: 90%;
     }
     #header .menu ul{
         display: none;
@@ -34,4 +57,25 @@
     .title p{
         display: block;
     }
+    .right-header .key-word {
+        display: none;
+    }
+    .right-header .ti-search {
+        margin-left: 90%;
+        font-weight: 900;
+        color: rgb(159, 180, 199);
+        font-size: 30px;
+    }
+    .motchill{
+        position: absolute;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction,
+    .swiper-button-prev, .swiper-rtl .swiper-button-next,
+    .swiper-button-next, .swiper-rtl .swiper-button-prev{
+        display: none;
+    }
+    .view p{
+        margin-top: 40% !important;
+    }
+
 }
