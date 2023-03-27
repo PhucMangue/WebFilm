@@ -60,8 +60,12 @@ list3.addEventListener('click',showList3)
 const timkiem=document.querySelector('#search-mobile');
 const modalSearch=document.querySelector('.modal-search');
 const searchContainer=document.querySelector('.modal-search-container');
+
 function openSearch(){
+  var x= document.querySelector('#main').offsetWidth;
+  if(x<=1023){
   modalSearch.classList.add('open');
+  }
 }
 modalSearch.addEventListener('click',function(close){
   modalSearch.classList.remove('open');
