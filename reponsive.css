@@ -11,6 +11,7 @@
     .container-item .menu-btn{
         display: block;
         margin-right: 90%;
+        cursor: pointer;
     }
     #header .menu ul{
         display: none;
