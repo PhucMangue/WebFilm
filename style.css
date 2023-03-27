@@ -47,7 +47,7 @@
   margin-left: 20px;
 
 }
-.right-header .ti-search{
+.right-header>.ti-search{
   position: absolute;
   margin-left: -30px;
   margin-top: 47px;
@@ -166,8 +166,9 @@
  }
 .modal-Menu-Container .modal-sub-menu{
   display: none;
+  margin-top: 30px;
 }
-.modal-Menu-Container ul li:hover a{
+.modal-Menu-Container>ul>li:hover>a{
   color: orangered;
 }
 .modal-Menu-Container ul li{
@@ -205,3 +206,26 @@
 .addStyles:hover{
   color: orangered;
 }
+/* modal search */
+.modal-search{
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1;
+ }
+ .modal-search-container{
+  display: flex;
+ }
+ .modal-search-container input{
+  margin-top: 100px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 20px;
+  background-color: #7c7c7c;
+  font-size: 20px;
+  color: white;
+ }

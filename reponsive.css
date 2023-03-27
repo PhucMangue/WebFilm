@@ -23,10 +23,14 @@
         display: none;
     }
     .right-header .ti-search {
+        display: none;
+    }
+   #search-mobile{
         margin-left: 90%;
         font-weight: 900;
         color: rgb(159, 180, 199);
         font-size: 30px;
+        display: block;
     }
     .motchill{
         position: absolute;
@@ -37,7 +41,12 @@
         display: none;
     }
     .view p{
-        margin-top: 40% !important;
+        margin-top: 47% !important;
+        font-size: 20px;
+    }
+    .name-film{
+        font-size: 20px;
+        padding-top: 51%;
     }
 
 }
@@ -62,10 +71,14 @@
         display: none;
     }
     .right-header .ti-search {
+     display: none;
+    }
+ #search-mobile{
         margin-left: 90%;
         font-weight: 900;
         color: rgb(159, 180, 199);
         font-size: 30px;
+        display: block;
     }
     .motchill{
         position: absolute;
@@ -76,7 +89,12 @@
         display: none;
     }
     .view p{
-        margin-top: 40% !important;
+        margin-top: 43% !important;
+        font-size: 20px;
+    }
+    .name-film{
+        font-size: 20px;
+        padding-top: 48%;
     }
 
 }
