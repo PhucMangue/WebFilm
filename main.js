@@ -75,3 +75,11 @@ searchContainer.addEventListener('click',function(event){
   event.stopPropagation()
 })
 
+//rank
+// const rank=document.querySelector('.rank');
+// const closeRank= document.querySelector('.js-item-film');
+// function rankHover(){
+
+// }
+
+// closeRank.addEventListener('mouseover',rankHover)
