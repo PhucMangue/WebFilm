@@ -107,7 +107,7 @@
  text-decoration: none;
 }
 #content{
-  height: 1000px;
+  height: 4000px;
   background-color: black;
   overflow: hidden;
 }
@@ -115,7 +115,6 @@
 .swiper {
   top: 50px;
   width: 1100px;
-  height: 550px;
   z-index: 1;
   position: relative;
 }
@@ -131,6 +130,7 @@
 }
 /* End Thanh Cuon */
 .view p{
+  text-shadow: 1px 1px 2px black;
  color: white;
  font-weight: 300;
  font-size: 30px;
@@ -140,6 +140,7 @@
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .name-film{
+  text-shadow: 1px 1px 2px black;
   color: white;
   font-weight: 300;
   font-size: 30px;
@@ -230,3 +231,47 @@
   font-size: 20px;
   color: white;
  }
+ /* list-film */
+ #list-film{
+  display: block;
+  padding-top: 100px;
+  max-width: 1100px;
+  margin: 0 auto;
+ }
+ #list-film ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+ #list-film ul li{
+ margin-bottom: 60px;
+ }
+ #list-film .item-film img{
+  max-width: 210px;
+  max-height: 314px;
+ }
+ #list-film .name{
+  text-align: center;
+ }
+ #list-film .name a{
+  text-decoration: none;
+  color: white;
+ }
+ #list-film>.list-box{
+   padding: 30px 0
+ }
+#list-film>.list-box>a{
+  text-decoration: none;
+  color: orange;
+  margin-right: 20px;
+  font-size: 25px;
+}
+#list-film>.list-box{
+  display: flex;
+}
+#list-film>.list-box>a:hover p{
+  color: rgb(236, 8, 134);
+}
+.block{
+  display: block;
+}
